@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BJ 4 Thêm</title>
+
+        <!-- Bootstrap CSS -->
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+        />    
+    </head>
+    <body>
+        <!-- BT 1 -->
+        <h1 style="text-align: center; color:blueviolet";> BT 1 Viết chương trình nhập ngày tháng năm</h1>
+        Ngày <input type="text" id="nhapNgay" /> <br>
+        <br>
+        Tháng <input type="text" id="nhapThang" /> <br>
+        <br>
+        Năm <input type="text" id="nhapNam" />
+        <br>
+        <br>
+        <img src="./images/BT1.png" height="300" width="800">
+        <div>
+            <button class="btn btn-success" id="xuatNTN">Xuất NTN Tiếp Theo</button>
+        </div>
+        <br>
+        <br>
+        <div id="thongbaobt1tieptheo" 
+        style ="background-color: brown; color:aliceblue; text-align: center;">
+        </div>
+        <br>
+        <br>
+        <img src="./images/BT1_1.png" height="300" width="800">
+        <div>
+            <button class="btn btn-warning" id="xuatNHQ">Xuất NTN hôm qua</button>
+        </div>
+        <br>
+        <br>
+        <div id="thongbaobt1homqua" 
+        style ="background-color: brown; color:aliceblue; text-align: center;">
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- BT 2 -->
+        <h1 style="text-align: center; color:blueviolet";> BT 2 Viết chương trình nhập  tháng năm để biết số ngày</h1>
+        <img src="./images/BT2.png" height="300" width="800"> 
+        <br>
+        Tháng <input type="text" id="nhapThangBT2" />
+        <br>
+        <br>
+        Năm <input type="text" id="nhapNamBT2" />
+        <br>
+        <br>
+        <div>
+            <button class="btn btn-success" id="xuatBNN">Bao Nhiêu Ngày</button>
+        </div>
+        <br>
+        <br>
+        <div id="thongBaoBNN"
+        style ="background-color: brown; color:aliceblue; text-align: center"></div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- BT 3  Nhập Số Nguyên 3 Chữ Số Xuất Ra cách Đọc-->
+        <h1 style="text-align: center; color:blueviolet";> BT 3 Nhập Số Nguyên 3 Chữ Số Xuất Ra cách Đọc</h1>
+        <img src="./images/BT3.png" height="300" width="1200"> 
+        <br>
+        <br>       
+        Số Nguyên 3 Chữ Sỗ <input type="text" id="nhapSN3CS" />
+        <br>
+        <br>
+        <div>
+            <button class="btn btn-info" id="xuatCD">Cách Đọc</button>
+        </div>
+        <br>
+        <br>
+        <div id="thongBaocd"
+        style ="background-color: brown; color:aliceblue; text-align: center"></div>
+
+        <!-- BT 4  Tìm sinh viên có nhà xa nhất-->
+        <h1 style="text-align: center; color:blueviolet";> BT 4 TÌm Sinh Viên Nhà Xa Nhất</h1>
+        <img src="./images/BT4.png" height="300" width="1200"> 
+        <br>
+        <br>
+        <div class="container">
+            <div class="row" style="text-align: center;">
+                <div class="col-md-4 bg-dark">
+                <h1 style="color : white;">Trần Văn Hắc</h1>
+                <p  style="color : white;"> x = 2, y = 3</p>
+                </div>
+                <div class="col-md-4 bg-info">
+                <h1>Nguyễn Thị Bờ</h1>
+                <p> x = 5, y = 7</p>
+                </div>
+                <div class="col-md-4 bg-warning">
+                <h1 style="color : white;"> Nguyễn Trần Lê</h1>
+                <p  style="color : white;"> x = 6, y = 5 </p>
+                </div>
+                <div class="col-lg-12 bg-success">
+                <h1>Trường Đại Học</h1>
+                <p> x = 8, y = 8</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        Địa Điểm Nhà Bạn Sinh Viên Bất Kỳ
+        X <input type="text" id="XDD1" />
+        Y <input type="text" id="YDD1" />
+        <br>
+        <br>
+        Điểm Trường Đại Học
+        X <input type="text" id="XDD2" />
+        Y <input type="text" id="YDD2" />
+        <br>
+        <br>
+        <div>
+            <button class="btn btn-primary" id="xuatKC">Tính Khoảng Cách</button>
+        </div>
+        <br>
+        <br>
+        <div id="thongBaokc"
+        style ="background-color: brown; color:aliceblue; text-align: center"></div>
+        <br>
+        <br>
+        Khoảng Cách Nhà Bạn Hắc tới Trường <input type="text" id="KCTT1" />
+        <br>
+        <br>
+        Khoảng Cách Nhà Bạn Bờ tới Trường <input type="text" id="KCTT2" />
+        <br>
+        <br>
+        Khoảng Cách Nhà Bạn Lê tới Trường <input type="text" id="KCTT3" />
+        <br>
+        <br>
+        <div>
+            <button class="btn btn-dark" id="xuatSoSanh">So Sánh Kết Quả</button>
+        </div>
+        <br>
+        <br>
+        <div id="thongBaoss"
+        style ="background-color: brown; color:aliceblue; text-align: center"></div>
+        <br>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+        ></script>
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"
+        ></script>
+        <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+        ></script>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
